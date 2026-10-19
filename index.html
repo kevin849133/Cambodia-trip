@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12372F">
+<title>柬埔寨 2026/10 一起去旅行</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#12372F;--moss:#2F6B4F;--lotus:#D93F7B;--saf:#EF9F2B;--mist:#EEF3EC;--stone:#CFC8B4;--card:#fff;--tx:#1d2b27;--sub:#66736e;--r:16px}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{scroll-padding-top:120px}
+body{font-family:"Noto Sans TC",-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--mist);color:var(--tx);padding-bottom:calc(76px + env(safe-area-inset-bottom,0px));line-height:1.5}
+.hero{position:relative;background:linear-gradient(180deg,#F7C9B6 0%,#F4A7A0 38%,#E0709A 100%);color:#fff;padding:calc(env(safe-area-inset-top,0px) + 22px) 20px 0;overflow:hidden}
+.hero h1{font-family:"Noto Serif TC",serif;font-weight:900;font-size:27px;line-height:1.2;text-shadow:0 1px 8px rgba(18,55,47,.35)}
+.hero p{font-size:13px;margin-top:6px;opacity:.95}
+.cd{display:inline-block;margin-top:10px;background:rgba(18,55,47,.82);padding:5px 12px;border-radius:99px;font-size:12.5px;font-weight:700}
+.hero svg{display:block;width:calc(100% + 40px);margin:6px -20px 0}
+.days{position:sticky;top:0;z-index:20;background:var(--ink);padding:calc(env(safe-area-inset-top,0px) + 8px) 10px 8px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:0;border-radius:12px;padding:6px 12px;background:rgba(255,255,255,.1);color:#cfe3d8;font:inherit;font-size:12px;text-align:center;min-width:58px}
+.chip b{display:block;font-size:16px;color:#fff}
+.chip.on{background:var(--saf);color:var(--ink)}.chip.on b{color:var(--ink)}
+main{padding:16px 14px}
+.dh{margin:4px 2px 14px}
+.dh small{color:var(--lotus);font-weight:700;font-size:13px}
+.dh h2{font-family:"Noto Serif TC",serif;font-size:23px;color:var(--ink);line-height:1.25}
+.dh .sum{font-size:13px;color:var(--sub);margin-top:4px}
+.tl{position:relative;padding-left:4px}
+.tl:before{content:"";position:absolute;left:62px;top:8px;bottom:8px;width:2px;background:repeating-linear-gradient(var(--stone) 0 6px,transparent 6px 11px)}
+.it{display:flex;gap:0;margin-bottom:12px;position:relative}
+.tm{width:54px;flex:0 0 54px;text-align:right;font-weight:700;font-size:13.5px;color:var(--ink);padding-top:12px;font-variant-numeric:tabular-nums}
+.dot{flex:0 0 18px;display:flex;justify-content:center;padding-top:15px;z-index:1}
+.dot i{width:12px;height:12px;border-radius:50%;background:var(--moss);border:3px solid var(--mist);box-sizing:content-box}
+.it.fly .dot i{background:#3B82C4}.it.food .dot i{background:var(--saf)}.it.night .dot i{background:#6B4FA0}.it.sight .dot i{background:var(--lotus)}.it.move .dot i{background:#8A7B5A}.it.rest .dot i{background:var(--moss)}
+.cdd{flex:1;background:var(--card);border-radius:var(--r);padding:11px 13px;box-shadow:0 1px 3px rgba(18,55,47,.12);min-width:0}
+.ti{font-weight:700;font-size:15px}
+.ti .ic{margin-right:6px}
+.nt{font-size:12.5px;color:var(--sub);margin-top:3px;white-space:pre-line}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:99px;background:#FCE3EC;color:var(--lotus);margin-top:5px;margin-right:4px}
+.go{display:inline-flex;align-items:center;gap:5px;margin-top:9px;padding:8px 14px;border-radius:99px;background:var(--ink);color:#fff;font-size:13px;font-weight:700;text-decoration:none}
+.go:active{background:var(--moss)}
+.go.alt{background:#fff;color:var(--ink);border:1.5px solid var(--ink)}
+.stay{margin:6px 0 12px;padding:12px 14px;border-radius:var(--r);background:var(--ink);color:#fff;font-size:14px}
+.stay b{color:var(--saf)}
+details{background:var(--card);border-radius:var(--r);margin:10px 0;padding:0 13px;box-shadow:0 1px 3px rgba(18,55,47,.12)}
+summary{padding:13px 0;font-weight:700;color:var(--ink);cursor:pointer}
+.bk{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid #edeee8}
+.bk div{font-size:14px;min-width:0}.bk span{display:block;font-size:12px;color:var(--sub)}
+.bk .go{margin:0;padding:6px 12px;white-space:nowrap}
+.sec{font-family:"Noto Serif TC",serif;font-size:21px;color:var(--ink);margin:2px 2px 12px}
+.box{background:var(--card);border-radius:var(--r);padding:14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(18,55,47,.12)}
+.box h3{font-size:15px;display:flex;gap:8px}
+.box .w{font-size:13px;color:var(--lotus);font-weight:700;margin:2px 0}
+.box p{font-size:13px;color:var(--sub);white-space:pre-line}
+.warn{background:#FFF4DC;border-left:4px solid var(--saf);border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:12px}
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;background:#fff;border-top:1px solid #dfe5dc;padding-bottom:env(safe-area-inset-bottom,0px)}
+.nav button{flex:1;border:0;background:none;padding:9px 0 8px;font:inherit;font-size:12px;color:var(--sub)}
+.nav button span{display:block;font-size:22px;line-height:1.1}
+.nav button.on{color:var(--lotus);font-weight:700}
+.v{display:none}.v.on{display:block}
+.foot{text-align:center;font-size:12px;color:var(--sub);margin:22px 0 6px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>🐶 一起去旅行<br>柬埔寨・金邊 × 暹粒</h1>
+  <p>2026/10/23（五）– 10/28（三）｜6 天 5 夜（含 2 晚夜巴）</p>
+  <span class="cd" id="cd"></span>
+  <svg viewBox="0 0 400 110" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <circle cx="200" cy="64" r="34" fill="#FFD27A" opacity=".9"/>
+    <path d="M0 110V92h60v-8h8v-12h6v12h8v-6h10v6h6V80h8v12h28V70h6V54h6V42h6V30h5V42h5V54h6V70h6V58h6V42h6V28h6V14h5v14h6v14h6v16h6v12h6V70h6V54h6V42h5V30h5V42h5V54h6V70h6v22h28V80h8v12h6v-6h10v6h8V72h6v12h8v8h60v18z" fill="#12372F"/>
+    <path d="M0 110v-8c40-6 80-4 130-2s90 4 140 0 80-4 130 2v8z" fill="#2F6B4F"/>
+  </svg>
+</header>
+
+<div class="days" id="days"></div>
+<main>
+  <section class="v on" id="v-day"></section>
+  <section class="v" id="v-trans"></section>
+  <section class="v" id="v-stay"></section>
+</main>
+
+<nav class="nav">
+  <button class="on" data-v="day"><span>🗓️</span>每日行程</button>
+  <button data-v="trans"><span>🚌</span>交通</button>
+  <button data-v="stay"><span>🏨</span>住宿</button>
+</nav>
+
+<script>
+const NAV=q=>"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(q);
+const ICON={fly:"✈️",food:"🍜",sight:"🏛️",move:"🚌",rest:"🛏️",night:"🍸",shop:"🛍️"};
+// [時間, 類型, 標題, 地圖關鍵字, 備註, 標籤]
+const D=[
+{d:"10/23",w:"五",n:"Day 1",t:"出發日＋金邊觀光",sum:"早班機抵達金邊，白天走歷史與皇宮，晚上河岸夜遊，23:58 搭夜巴去暹粒。",
+ s:[
+ ["5:00","fly","出發前往機場","Taoyuan International Airport Terminal 1","提早到機場辦理報到與託運。"],
+ ["7:20","fly","搭機飛往金邊","Taoyuan International Airport Terminal 1","桃園機場 T1 起飛。","航班"],
+ ["9:50","fly","抵達德崇國際機場","Techo International Airport","當地時間 9:50（柬埔寨比台灣慢 1 小時）。","抵達"],
+ ["12:00","move","計程車進金邊市區","Larryta Bus Phnom Penh Branch","車程預計 40–50 分鐘。先到 Larryta 巴士站寄放行李，之後輕裝逛。"],
+ ["13:00","food","午餐：Kengkong Restaurant","Kengkong Restaurant","","午餐"],
+ ["14:00","sight","吐斯廉博物館（S-21 集中營）","Tuol Sleng Genocide Museum","沉重但重要的歷史現場，預留約 1.5–2 小時。"],
+ ["16:00","sight","金邊皇宮","Royal Palace of Cambodia","參觀皇宮建築群與銀塔。"],
+ ["19:00","food","晚餐：Pizza 4P’s 313 Quayside","Pizza 4P's 313 Quayside","已預約 19:00（訂位人：Yeh Yuchen）。","已訂位"],
+ ["20:00","sight","夜間散步：Chaktomuk Walk Street","Chaktomuk Walk Street","沿河岸散步，消化晚餐。"],
+ ["21:00","food","柬埔寨連鎖咖啡：TUBE Coffee Riverside","TUBE Coffee Riverside","","咖啡"],
+ ["22:00","night","高空酒吧：Sora","Sora Skybar Phnom Penh","看金邊夜景。","夜景"],
+ ["23:00","move","前往搭夜巴去暹粒","Larryta Bus Phnom Penh Branch","Larryta 臥舖巴士，發車時間 23:58。記得先取回寄放的行李。","夜巴"]
+ ],
+ b:[["逛市場","金边中央市场","Central Market"],["柬式料理","LaBaab Restaurant","LaBaab Restaurant"],["冰淇淋好吃","Nuk Cafe","Nuk Cafe"],["炒麵煎餃","David's Restaurant Homemade Noodles","David's Restaurant Homemade Noodles"],["塔山寺","Wat Phnom Daun Penh","Wat Phnom Daun Penh"],["柬式料理","One More Restaurant (Boeung Kak)","One More Restaurant Boeung Kak"]],
+ stay:"🚌 臥舖巴士（夜巴 Phnom Penh → Siem Reap）"},
+{d:"10/24",w:"六",n:"Day 2",t:"暹粒市區",sum:"清晨抵達暹粒，先放行李洗澡，白天逛博物館與市集，天氣太熱就回飯店休息。",
+ s:[
+ ["6:00","move","夜巴抵達暹粒","Larryta Bus Siem Reap Branch","預計 6:00 左右抵達。","抵達"],
+ ["7:00","rest","先到飯店放行李＋洗澡","The Moon Residence & Spa Siem Reap","The Moon Residence & Spa，若還不能入住就先寄放行李。","住宿"],
+ ["8:00","food","早餐＋咖啡：Redbuff Coffee House","Redbuff Coffee House Siem Reap","","早餐"],
+ ["10:00","sight","吳哥國家博物館","Angkor National Museum","先認識吳哥歷史，為後面三天包車行程暖身。"],
+ ["12:00","food","牛骨河粉：Lao noodles","Lao noodles Siem Reap","","午餐"],
+ ["14:00","rest","好熱，回飯店休息","The Moon Residence & Spa Siem Reap","避開午後高溫，補眠、洗澡。"],
+ ["16:00","shop","柬製品市場","Made in Cambodia Market Siem Reap","找柬埔寨手作與伴手禮。"],
+ ["17:00","shop","暹粒舊市場（傳統市場＋市集）","Old Market Siem Reap","傳統市場與市集，適合買紀念品。"],
+ ["19:00","food","晚餐：Phsar Khmer Food Court 美食街","Phsar Khmer Food Court Siem Reap","","晚餐"],
+ ["22:00","night","高腳屋酒吧：ASANA Old Wooden House","ASANA OLD WOODEN HOUSE Cocktail Bar","","酒吧"]
+ ],
+ b:[["義式冰淇淋","Gelato Lab","Gelato Lab Siem Reap"],["咖啡","BROWN Roastery | Siem Reap","BROWN Roastery Siem Reap"],["Pizza","Bella’s Pizzeria & Western Eatery","Bella's Pizzeria & Western Eatery Siem Reap"],["高級高棉料理","Mealea Watbo - Siem Reap","Mealea Watbo Siem Reap"]],
+ stay:"🏨 The Moon Residence & Spa（暹粒，連住 10/24–10/27）"},
+{d:"10/25",w:"日",n:"Day 3",t:"吳哥窟・大圈",sum:"包車一整天走大圈，晚上自由選擇看法爾馬戲團，再去 Pub Street。",
+ s:[
+ ["9:00","sight","包車出發：大圈","Angkor Wat Siem Reap","包車 9:00 出發，約 18:00 回到市區。實際接送時間請和司機再確認。","包車"],
+ ["18:00","move","包車結束，回市區","The Moon Residence & Spa Siem Reap","回飯店休息、洗澡、吃晚餐。"],
+ ["20:00","sight","（自行選擇）法爾馬戲團","Phare, The Cambodian Circus","需 Klook 購票，票價與場次請在購票頁確認。","自選"],
+ ["23:00","night","Pub Street","Pub Street Siem Reap","暹粒最熱鬧的酒吧街。"]
+ ],
+ b:[["高腳屋酒吧","ASANA OLD WOODEN HOUSE Cocktail Bar","ASANA OLD WOODEN HOUSE Cocktail Bar"],["美式餐廳","Nomad Eatery Siem Reap","Nomad Eatery Siem Reap"],["安靜的調酒吧","Picasso Bar","Picasso Bar Siem Reap"],["時尚中式酒吧","Miss Wong Cocktail Bar","Miss Wong Cocktail Bar Siem Reap"],["Live Band 酒吧","Laundry Bar","Laundry Bar Siem Reap"]],
+ stay:"🏨 The Moon Residence & Spa"},
+{d:"10/26",w:"一",n:"Day 4",t:"吳哥窟・小圈",sum:"包車走小圈，晚上逛暹粒藝術中心夜市。",
+ s:[
+ ["9:00","sight","包車出發：小圈","Angkor Wat Siem Reap","包車 9:00 出發，約 18:00 結束。","包車"],
+ ["18:00","move","包車結束，回市區","The Moon Residence & Spa Siem Reap","回飯店休息、洗澡。"],
+ ["19:00","shop","暹粒藝術中心夜市","Siem Reap Art Center Night Market","晚餐＋逛夜市。","夜市"]
+ ],
+ b:[["藝術品畫廊","Theam’s Gallery","Theam's Gallery Siem Reap"],["按摩","SOK SPA MASSAGE","SOK SPA MASSAGE Siem Reap"],["友善婦女的紀念品店","SALASUSU Old Market Shop","SALASUSU Old Market Shop Siem Reap"]],
+ stay:"🏨 The Moon Residence & Spa"},
+{d:"10/27",w:"二",n:"Day 5",t:"女王宮＋暹粒市區",sum:"最後一天包車走外圈（含女王宮），晚上買東西、洗澡，23:30 左右搭夜巴回金邊。",
+ s:[
+ ["9:00","sight","包車出發：外圈（含女王宮）","Banteay Srei","包車 9:00 出發，約 18:00 結束。","包車"],
+ ["18:00","move","包車結束，回市區","The Moon Residence & Spa Siem Reap","10/27 是最後一晚，記得整理行李。"],
+ ["20:00","shop","當地超市採買","CXL Supermarket Siem Reap","","採買"],
+ ["21:00","rest","找地方洗澡","The Moon Residence & Spa Siem Reap","夜巴前先洗好澡。"],
+ ["23:00","move","夜巴回金邊","Larryta Bus Siem Reap Branch","發車時間約 23:30（原表單標示「?」，請再確認）。","夜巴"]
+ ],
+ b:[],
+ stay:"🚌 臥舖巴士（夜巴 Siem Reap → Phnom Penh）"},
+{d:"10/28",w:"三",n:"Day 6",t:"回程囉",sum:"清晨抵達金邊，吃完早餐直接去機場，下午回到桃園。",
+ s:[
+ ["6:00","move","夜巴抵達金邊","Larryta Bus Phnom Penh Branch","預計 6:00 左右抵達。","抵達"],
+ ["7:00","food","法式老屋早餐咖啡：Gather Grounds","Gather Grounds Phnom Penh","","早餐"],
+ ["9:00","fly","出發前往機場","Techo International Airport","","機場"],
+ ["11:35","fly","搭機返台","Techo International Airport","德崇國際機場起飛。","航班"],
+ ["15:55","fly","抵達桃園機場 T1","Taoyuan International Airport Terminal 1","到家囉！","抵達"]
+ ],
+ b:[["柬埔寨式早餐","One More Restaurant Boeung Kak","One More Restaurant Boeung Kak"]],
+ stay:"🏠 住你自己家"}
+];
+const T=[
+["✈️","去程航班","10/23（五）7:20 桃園 T1 → 9:50 德崇國際機場","5:00 先出發去機場。柬埔寨比台灣慢 1 小時，9:50 為當地時間。","Taoyuan International Airport Terminal 1"],
+["🚕","機場 → 金邊市區","10/23（五）約 10:00 後","計程車抵達金邊，預計 40–50 分鐘，目的地 Larryta Bus Phnom Penh Branch（先放行李）。","Larryta Bus Phnom Penh Branch"],
+["🚌","夜巴：金邊 → 暹粒","10/23（五）23:58 發車","Larryta 臥舖巴士，預計 10/24 早上 6:00 左右抵達 Larryta Bus Siem Reap Branch。","Larryta Bus Phnom Penh Branch"],
+["🚗","暹粒包車（3 天）","10/25 大圈・10/26 小圈・10/27 外圈","每天約 9:00 出發、18:00 結束。女王宮在 10/27 外圈。","Angkor Wat Siem Reap"],
+["🚌","夜巴：暹粒 → 金邊","10/27（二）23:30 發車（待確認）","原表單標示「23:30(?)」，請再向 Larryta 確認。預計 10/28 早上 6:00 左右抵達。","Larryta Bus Siem Reap Branch"],
+["✈️","回程航班","10/28（三）11:35 德崇 → 15:55 桃園 T1","9:00 前往機場。早餐後直接出發。","Techo International Airport"]
+];
+const W=["夜巴的發車時間（尤其是 10/27 回金邊）請在出發前再確認。","吳哥窟包車：實際接送時間與行程順序，請與司機再確認。","簽證、入境規定與門票請在出發前查官方最新資訊。"];
+
+const $=id=>document.getElementById(id);
+let cur=0;
+function dayHTML(x){
+ let h=`<div class="dh"><small>${x.n}｜${x.d}（${x.w}）</small><h2>${x.t}</h2><div class="sum">${x.sum}</div></div><div class="tl">`;
+ x.s.forEach(i=>{h+=`<div class="it ${i[1]}"><div class="tm">${i[0]}</div><div class="dot"><i></i></div><div class="cdd"><div class="ti"><span class="ic">${ICON[i[1]]}</span>${i[2]}</div>${i[4]?`<div class="nt">${i[4]}</div>`:""}${i[5]?`<span class="tag">${i[5]}</span>`:""}<br><a class="go" target="_blank" rel="noopener" href="${NAV(i[3])}">📍 開啟導航</a></div></div>`});
+ h+=`</div><div class="stay">今晚住宿<br><b>${x.stay}</b></div>`;
+ if(x.b.length){h+=`<details><summary>📌 備案參考（${x.b.length}）</summary>`+x.b.map(k=>`<div class="bk"><div>${k[1]}<span>${k[0]}</span></div><a class="go alt" target="_blank" rel="noopener" href="${NAV(k[2])}">導航</a></div>`).join("")+`</details>`}
+ return h;
+}
+function showDay(i){
+ cur=i;$("v-day").innerHTML=dayHTML(D[i]);
+ document.querySelectorAll(".chip").forEach((c,k)=>c.classList.toggle("on",k==i));
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+$("days").innerHTML=D.map((x,i)=>`<button class="chip" onclick="showDay(${i})">${x.d}<b>${x.w}</b></button>`).join("");
+$("v-trans").innerHTML=`<h2 class="sec">交通總覽</h2>`+`<div class="warn">⚠️ ${W.join("<br>⚠️ ")}</div>`+T.map(t=>`<div class="box"><h3><span>${t[0]}</span>${t[1]}</h3><div class="w">${t[2]}</div><p>${t[3]}</p><a class="go" target="_blank" rel="noopener" href="${NAV(t[4])}">📍 開啟導航</a></div>`).join("");
+const MOON="https://maps.app.goo.gl/ytmWuSe1jaytegpj9";
+$("v-stay").innerHTML=`<h2 class="sec">住宿安排</h2>
+<div class="box"><h3><span>🚌</span>10/23（五）夜｜夜巴</h3><div class="w">Larryta 臥舖巴士：金邊 → 暹粒</div><p>23:58 發車，在車上過夜，10/24 約 6:00 抵達暹粒。</p></div>
+<div class="box"><h3><span>🏨</span>10/24–10/27｜The Moon Residence & Spa</h3><div class="w">暹粒，連住 3 晚</div><p>家庭房：7,512 元\n雙人房：3,558 元\n大家都已付款，無法取消與更改。\n10/24 早上抵達後先放行李＋洗澡，可再向飯店確認提早入住。</p>
+<a class="go" target="_blank" rel="noopener" href="${MOON}">📍 開啟導航</a></div>
+<div class="box"><h3><span>🚌</span>10/27（二）夜｜夜巴</h3><div class="w">Larryta 臥舖巴士：暹粒 → 金邊</div><p>約 23:30 發車（待確認），在車上過夜，10/28 約 6:00 抵達金邊。</p></div>
+<div class="box"><h3><span>🏠</span>10/28（三）｜住你自己家</h3><p>15:55 抵達桃園機場 T1，回家休息。</p></div>
+<div class="foot">祝旅途平安，玩得開心！</div>`;
+document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{
+ document.querySelectorAll(".nav button").forEach(x=>x.classList.toggle("on",x==b));
+ document.querySelectorAll(".v").forEach(v=>v.classList.toggle("on",v.id=="v-"+b.dataset.v));
+ $("days").style.display=b.dataset.v=="day"?"flex":"none";
+ window.scrollTo({top:0});
+});
+// 倒數／旅行中
+(function(){
+ const s=new Date(2026,9,23),e=new Date(2026,9,28,23,59),n=new Date(),el=$("cd");
+ const days=Math.ceil((s-new Date(n.getFullYear(),n.getMonth(),n.getDate()))/864e5);
+ let idx=0;
+ if(n<s)el.textContent="距離出發還有 "+days+" 天";
+ else if(n<=e){idx=Math.min(5,Math.floor((new Date(n.getFullYear(),n.getMonth(),n.getDate())-s)/864e5));el.textContent="旅行中｜今天是 Day "+(idx+1)}
+ else el.textContent="旅程結束，期待下次出發";
+ showDay(idx);window.scrollTo({top:0});
+})();
+</script>
+</body>
+</html>
