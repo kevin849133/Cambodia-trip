@@ -1,2 +1,2 @@
-# tokyo-trip
+# cambodia-trip
 Tokyo Travel Planner
